@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titre">
+        <h1>Formulaire</h1>
+        <div class="barre"></div>
+        <div class="ellipse"></div>
+    </div>
+
+    <div class="formulaire">
+        <form id="form">
+            <div id="success-message"></div>
+            <label for="nom">Nom :<div id="error-nom"></div>  </label>
+            <input type="text" id="nom" name="nom">
+            
+        
+            <label for="prenom">Prénom :<div id="error-prenom"></div> </label>
+            <input type="text" id="prenom" name="prenom">
+            
+        
+            <label for="email">Email :<div id="error-email"></div></label>
+            <input type="email" id="email" name="email">
+              
+
+            <label for="date">Date de naissance :<div id="error-date"></div></label>
+            <input type="date" id="date" name="date">
+            
+
+            <label for="adresse">Adresse :<div id="error-adresse"></div></label>
+            <input type="text" id="adresse" name="adresse">
+            
+        
+            <label for="password">Mot de passe :<div id="error-password"></div></label>
+            <input type="password" id="password" name="password">
+              
+        
+            <label for="confirm">Confirmer le mot de passe : <div id="error-confirm"></div> </label>
+            <input type="password" id="confirm" name="confirm">
+           
+        
+            <button type="submit" id="valider">Envoyez</button>
+            
+
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
